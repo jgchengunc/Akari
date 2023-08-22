@@ -1,0 +1,56 @@
+.hbox {
+    -fx-padding: 20px;
+    -fx-spacing: 20px;
+    -fx-alignment: center;
+}
+
+.reset {
+    -fx-base: #ff7e72;
+}
+
+.completed {
+    -fx-text-fill: #06dd2e;
+}
+
+.grid {
+    -fx-alignment: center;
+    -fx-grid-lines-visible: true;
+}
+
+.cell {
+    -fx-pref-width: 30px;
+    -fx-pref-height: 30px;
+    -fx-alignment: center;
+    -fx-background-radius: 0;
+}
+
+.clue {
+    -fx-text-alignment: center;
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 25px;
+    -fx-background-color: #000000;
+}
+
+.satisfiedClue {
+    -fx-text-fill: #06dd2e;
+}
+
+.lampCorridor {
+    -fx-background-color: #ffff96;
+}
+
+.illegalLampCorridor {
+    -fx-background-color: #ff7e72;
+}
+
+.litCorridor {
+    -fx-background-color: #ffff96;
+}
+
+.unlitCorridor {
+    -fx-background-color: #ffffff;
+}
+
+.wall {
+    -fx-background-color: #000000;
+}
